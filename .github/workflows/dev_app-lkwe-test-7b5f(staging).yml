@@ -34,6 +34,6 @@ jobs:
       with:
         app-name: app-lkwe-test-7b5f
         slot-name: staging
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CAA80219F2EE495FA4D19C26B2DFC635 }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C14772C3EA564C02A6B7F4F1CA0397D5 }}
         package: ${{env.DOTNET_ROOT}}/myapp
 
